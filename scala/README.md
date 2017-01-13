@@ -14,6 +14,7 @@ sbt package
 sh submit.sh
 ```
 ![$m$ denotes sketch size](img/Loss.png)
+(*m* refers to sketch size)
 
 To use the methods defined, include:
 ```
