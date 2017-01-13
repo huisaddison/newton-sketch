@@ -13,7 +13,7 @@ To run the included example on MNIST data:
 sbt package
 sh submit.sh
 ```
-![$m$ denotes sketch size][img/Loss.png]
+![$m$ denotes sketch size](img/Loss.png)
 
 To use the methods defined, include:
 ```
