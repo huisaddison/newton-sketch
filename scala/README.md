@@ -8,11 +8,12 @@ Relies on [Breeze](https://github.com/scalanlp/breeze/) for linear algebra
 routines.
 
 ## Usage:
-Includes an example on MNIST data:
+To run the included example on MNIST data:
 ```
 sbt package
 sh submit.sh
 ```
+![$m$ denotes sketch size][img/Loss.png]
 
 To use the methods defined, include:
 ```
