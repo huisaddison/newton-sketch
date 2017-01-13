@@ -1,4 +1,4 @@
-# newton-sketch
+# newton-sketch: Python
 
 A NumPy implementation of [Newton Sketch](https://arxiv.org/abs/1505.02250).
 Currently supports logistic regression, with random projection sketch
