@@ -4,3 +4,4 @@ NumPy and Spark implementations of [Newton Sketch](https://arxiv.org/abs/1505.02
 Currently supports logistic regression, with random projection sketch
 matrices based on Gaussian- and Rademacher- distributed random vectors.
 
+For usage, see the corresponding README in the scala / python directories.
