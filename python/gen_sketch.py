@@ -20,6 +20,9 @@ def gen_sketch_mat(m, n, method):
     elif method is 'Rademacher':
         # Produces r.v. in {0, 1} with equal probability
         S = ((np.random.randn(m, n) > 0) * 2 - 1) / m
+    elif method is 'Rademacher_Word_Vec':
+        # {-1/sqrt(d),1/sqrt(d)} with equal probability
+        S = ((np.random.randn(m, n) > 0.5) * 2 - 1) /np.sqrt(m)
     else:
         raise ValueError('Unrecognized sketch type: ' + method)
     return S
